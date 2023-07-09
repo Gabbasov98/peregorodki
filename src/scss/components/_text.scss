@@ -1,0 +1,73 @@
+.text96{
+  font-size: 6em;
+  line-height: 123%;
+}
+
+.text64{
+  font-size: 4em;
+  line-height: 123%;
+}
+
+.text30{
+  font-size: 1.875em;
+  line-height: 123%;
+}
+
+.text24{
+  font-size: 1.5em;
+  line-height: 125%;
+}
+
+.text18{
+  font-size: 1.125em;
+  line-height: 160%;
+}
+
+.text11{
+  font-size: .6875em;
+  line-height: 160%;
+}
+
+.light-text{
+  font-weight: 300;
+}
+
+.bold-text{
+  font-weight: 700;
+}
+
+.uppercase-text{
+  text-transform: uppercase;
+}
+
+.gray-text{
+  color: $gray;
+}
+
+
+@media screen and (max-width: 992px){
+  .text96{
+    font-size: 2.25em;
+  }
+
+  .text64{
+    font-size: 2em;
+  }
+
+  .text30{
+    font-size: 1.25em;
+  }
+
+  .text24{
+    font-size: 1.125em;
+  }
+
+  .text18{
+    font-size: 1em;
+  }
+}
+
+
+@media screen and (max-width: 576px){
+
+}
